@@ -5,11 +5,6 @@ import javax.crypto.*;
 import javax.crypto.spec.*;
 import java.util.Base64;
 
-/**
- * Utility class for Diffie-Hellman key exchange
- * This allows client and server to establish a shared secret key
- * without transmitting it directly over the network
- */
 public class DiffieHellmanKeyExchange {
     
     private static final String DH_ALGORITHM = "DH";
