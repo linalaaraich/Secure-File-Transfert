@@ -15,7 +15,6 @@ public class DiffieHellmanKeyExchange {
     private KeyAgreement keyAgreement;
     private byte[] sharedSecret;
     private SecretKey aesKey;
-    
 
     public DiffieHellmanKeyExchange() throws Exception {
         AlgorithmParameterGenerator paramGen = AlgorithmParameterGenerator.getInstance(DH_ALGORITHM);
